@@ -196,7 +196,7 @@ def edad():
            edad_total += clientes[key][1]
         
         #Se imprime el promedio
-        print("Edad promedio de los clientes preferentes: ", edad_total/(len(clientes))) 
+        print("Edad promedio de todos los clientes: ", edad_total/(len(clientes))) 
         print("\n")
     else:  
         print("Error con la eleccion \n")   
